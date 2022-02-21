@@ -5,7 +5,6 @@ library(dplyr)
 library(geobr)
 library(ggplot2)
 library(sf)
-library(stargazer)
 
 
 #importando os dados 
