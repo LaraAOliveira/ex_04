@@ -31,7 +31,7 @@ cobertura <- ext %>%
   summarise(cobertura = n())
 
 #pegando somente a cobertura vegetal
-cobertura_vegetal <- ex %>%
+cobertura_vegetal <- ext %>%
   group_by(ID) %>%
   filter(brasil_coverage_2020 %in% c(1,3,4,5,49)) %>%
   summarise(cobertura_v = n())
