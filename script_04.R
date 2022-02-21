@@ -53,7 +53,7 @@ plot_rio_cobertura <- rio_de_janeiro %>%
   ggplot() +
   geom_sf(aes(fill = p_v), alpha = 5, col = "white") +
   scale_fill_viridis_c(name = "Porcentagem") +
-  labs(title = "Porcentagem de Cobertura Vegetal", subtitle = "Estado do Rio de Janeiro")
+  labs(title = "Porcentagem de Cobertura Vegetal por Município", subtitle = "Estado do Rio de Janeiro")
 plot_rio_cobertura
 
 #forest share por município
