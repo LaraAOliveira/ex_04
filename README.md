@@ -5,5 +5,5 @@ Esse repositório apresenta os códigos e o gráfico referentes ao quarto exerc�
 Aqui, procurei mostrar a porcentagem de cobertura vegetal de cada município do estado do Rio de Janeiro. 
 
 ## Pacotes
-O código foi escrito no R utilizando os seguintes pacote:
+O código foi escrito no R utilizando os seguintes pacotes:
 terra, spData, dplyr, geobr, ggplot2, sf
